@@ -7,9 +7,9 @@ import { makeStyles } from "@material-ui/core/styles";
 // import VerifiedUser from "@material-ui/icons/VerifiedUser";
 // import Fingerprint from "@material-ui/icons/Fingerprint";
 // import AccessibleForwardTwoToneIcon from '@material-ui/icons/AccessibleForwardTwoTone';
-import EcoIcon from '@material-ui/icons/Eco';
-import DirectionsBikeIcon from '@material-ui/icons/DirectionsBike';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import EcoIcon from "@material-ui/icons/Eco";
+import DirectionsBikeIcon from "@material-ui/icons/DirectionsBike";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -27,11 +27,12 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>About Us</h2>
           <h5 className={classes.description}>
-          Melting Bowl is born from the concept of bringing together different 
-          flavors and cultures into a bowl. All our bowls are prepared with great 
-          dedication and high-quality ingredientes. Melting Bowl is a gourmet meal 
-          full of natural, fresh and healthy ingredients. We are dedicated to 
-          offer a great mix of flavors and to promote a well-balanced diet. 
+            Melting Bowl was born in San Francisco from the concept of bringing
+            together different flavors and cultures into a bowl. All our bowls
+            are prepared with great dedication and high-quality ingredients.
+            Melting Bowl is a gourmet meal full of natural, fresh and healthy
+            ingredients. We are dedicated to offer a great mix of flavors and to
+            promote a well-balanced diet.
           </h5>
         </GridItem>
       </GridContainer>
@@ -44,7 +45,7 @@ export default function ProductSection() {
               We are fully committed to helping our environment; therefore,
                all our containers and cutlery are biodegradable, made of 
                eco-friendly natural fiber sugarcane. Our bowls are 
-               microwave safe and can be refrigerated and frozen." 
+               microwave safe and can be refrigerated and frozen."
               icon={EcoIcon}
               iconColor="success"
               vertical
@@ -73,15 +74,16 @@ export default function ProductSection() {
               vertical
             />
             <p className={classes.description}>
-            Delivery: we take orders one day in advance.
-          <br/>
-          Take-out: we take same day orders to be picked up from 2:00 - 8:00pm.
-          <br/>
-          1050 Post Street. San Francisco.
-          <br/>
-          Text us to: 415.283.7646
-          <br/>
-          </p>
+              Delivery: we take orders one day in advance.
+              <br />
+              Take-out: we take same day orders to be picked up from 2:00 -
+              8:00pm.
+              <br />
+              1050 Post Street. San Francisco.
+              <br />
+              Text us to: 415.283.7646
+              <br />
+            </p>
           </GridItem>
         </GridContainer>
       </div>

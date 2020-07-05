@@ -41,7 +41,7 @@ export default function LandingPage(props) {
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "dark"
+          color: "dark",
         }}
         {...rest}
       />
@@ -52,7 +52,8 @@ export default function LandingPage(props) {
               <img src={logoletras} className={classes.img2} alt="profile" />
 
               <h4>Fusion of culture, creativity and good taste!</h4>
-              <br />
+
+              {/* <h4>Located in San Francisco, CA</h4> */}
               <Button
                 color="primary"
                 size="lg"

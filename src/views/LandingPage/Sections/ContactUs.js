@@ -74,8 +74,9 @@ export default function ContactUs() {
                 </IconButton>
               </GridItem>
               <h4 className={classes.cardTitle}>
+                <u>1050 Post Street. San Francisco.</u>
+                <br />
                 <u>+1(415)283-7646</u>
-                {/* <a href="https://www.creative-tim.com?ref=mkr-footer"target="_blank">Instagram</a> */}
               </h4>
             </Card>
           </GridItem>

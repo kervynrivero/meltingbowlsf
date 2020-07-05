@@ -21,22 +21,21 @@ const useStyles = makeStyles(styles);
 
 export default function Desserts() {
   const classes = useStyles();
-//   const imageClasses = classNames(
-//     classes.imgRaised,
-//     classes.imgRoundedCircle,
-//     classes.imgFluid
-//   );
+  //   const imageClasses = classNames(
+  //     classes.imgRaised,
+  //     classes.imgRoundedCircle,
+  //     classes.imgFluid
+  //   );
   return (
     <div className={classes.section}>
       <h2 className={classes.title}>Sweet Treats</h2>
-      <div >
-        <GridContainer >
-        <GridItem xs={12} sm={12} md={2}>
-          </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
+      <div>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={2}></GridItem>
+          <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}> */}
-                <img
+              <img
                 src={choco}
                 alt="..."
                 className={
@@ -48,20 +47,18 @@ export default function Desserts() {
                 }
               />
 
-                
               {/* </GridItem> */}
               <h4 className={classes.cardTitle}>
-                Mocha Mousse{<h7 className={classes.blankSpace}>$$</h7>}{<h7 className={classes.description}>$6.00 </h7>}
+                Mocha Mousse{<h7 className={classes.blankSpace}>$$</h7>}
+                {<h7 className={classes.description}>$6.00 </h7>}
               </h4>
               <CardBody>
                 <h8 className={classes.description}>
-                Creamy coffee infused mousse over a chocolate marquise
+                  Creamy coffee infused mousse over a chocolate marquise
                 </h8>
               </CardBody>
-
             </Card>
           </GridItem>
-
 
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
@@ -80,17 +77,18 @@ export default function Desserts() {
               />
               {/* </GridItem> */}
               <h4 className={classes.cardTitle}>
-                Key Lime Mousse {<h7 className={classes.blankSpace}>$$</h7>}{<h7 className={classes.description}>$6.00 </h7>}
+                Key Lime Mousse {<h7 className={classes.blankSpace}>$$</h7>}
+                {<h7 className={classes.description}>$6.00 </h7>}
               </h4>
               <CardBody>
                 <h8 className={classes.description}>
-                Creamy Key Lime mousse on top of a crispy crust of Marie cookies
+                  Creamy key lime mousse on top of a crispy crust of Marie
+                  cookies.
                 </h8>
               </CardBody>
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={2}>
-          </GridItem>
+          <GridItem xs={12} sm={12} md={2}></GridItem>
         </GridContainer>
       </div>
     </div>
